@@ -20,7 +20,42 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  text-align:center;
 }
+
+.top
+{
+  margin-top: 12px;
+  font-size:18px;
+  font-weight: bold;
+  display:flex;
+  justify-content: space-around;
+}
+
+.header
+{
+  display:flex;
+  align-self: center;
+  justify-content: start;
+}
+
+.center
+{
+  display:flex;
+  flex-grow:1;
+  align-items: baseline;
+  margin-left:55px;
+  margin-right:55px;
+}
+
+.buttons
+{
+  display:flex;
+  margin-left: 70px;
+  gap:10px;
+}
+
+
 
 .icon {
   color: royalblue;
